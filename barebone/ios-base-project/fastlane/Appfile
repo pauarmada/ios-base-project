@@ -1,0 +1,6 @@
+app_identifier "app_identifier"
+apple_id "apple_id@email.com"
+team_name "team_name"
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# https://github.com/KrauseFx/fastlane/blob/master/docs/Appfile.md

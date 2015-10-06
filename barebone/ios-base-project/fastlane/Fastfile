@@ -1,0 +1,24 @@
+fastlane_version "1.27.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    ENV["DELIVER_PASSWORD"] = ""
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/***/***"
+    
+    cocoapods
+
+  end
+
+  # You can define as many lanes as you want
+
+  after_all do |lane|
+  end
+
+  error do |lane, exception|
+  end
+end
+
+# More information about multiple platforms in fastlane: 
+# https://github.com/KrauseFx/fastlane/blob/master/docs/Platforms.md
