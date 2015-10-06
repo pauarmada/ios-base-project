@@ -5,6 +5,7 @@ Base iOS project creator script which initializes common components such as coco
 
 Modify create.py variables:
 
+```python
 SRC_FOLDER = 'ios-base-project'
 FOLDER_NAME = 'project-ios'
 PROJECT_NAME = 'Sample App'
@@ -13,6 +14,7 @@ ORGANIZATION_IDENTIFIER = 'com.mycompany'
 ENABLE_CRASHLYTICS = False
 CRASHLYTICS_API_KEY = 'CRASHLYTICS_API_KEY'
 CRASHLYTICS_API_SECRET = 'CRASHLYTICS_API_SECRET'
+```
 
 # Description
 Performs the following tasks in the python script create.py:
