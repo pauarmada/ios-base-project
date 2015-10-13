@@ -1,5 +1,5 @@
 # ios-base-project
-Base iOS project creator script which initializes common components such as cocoapods, fastlane, and crashlytics
+Base iOS project creator script which initializes common components such as cocoapods and fastlane
 
 # Config
 
@@ -11,9 +11,6 @@ FOLDER_NAME = 'project-ios'
 PROJECT_NAME = 'Sample App'
 ORGANIZATION_NAME = 'My Company'
 ORGANIZATION_IDENTIFIER = 'com.mycompany'
-ENABLE_CRASHLYTICS = False
-CRASHLYTICS_API_KEY = 'CRASHLYTICS_API_KEY'
-CRASHLYTICS_API_SECRET = 'CRASHLYTICS_API_SECRET'
 ```
 
 # Description

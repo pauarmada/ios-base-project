@@ -16,9 +16,6 @@ FOLDER_NAME = 'project-ios'
 PROJECT_NAME = 'Sample App'
 ORGANIZATION_NAME = 'My Company'
 ORGANIZATION_IDENTIFIER = 'com.mycompany'
-ENABLE_CRASHLYTICS = False
-CRASHLYTICS_API_KEY = 'CRASHLYTICS_API_KEY'
-CRASHLYTICS_API_SECRET = 'CRASHLYTICS_API_SECRET'
 
 """
 END GLOBAL SETTINGS
@@ -52,10 +49,6 @@ def rename(dir, pattern):
             replace(pathAndFilename, "PROJECTNAME", PROJECT_NAME)
             replace(pathAndFilename, "ORGANIATIONNAME", ORGANIZATION_NAME)
             replace(pathAndFilename, "ORGANIZATIONIDENTIFIER", ORGANIZATION_IDENTIFIER)
-            replace(pathAndFilename, "CRASHLYTICS_API_KEY", CRASHLYTICS_API_KEY)
-            replace(pathAndFilename, "CRASHLYTICS_API_SECRET", CRASHLYTICS_API_SECRET)
-            if not ENABLE_CRASHLYTICS:
-                replace(pathAndFilename, "./Fabric.framework/run", "#./Fabric.framework/run")
                 
             renameProjectFile(pathAndFilename)
 
