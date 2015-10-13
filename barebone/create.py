@@ -12,10 +12,10 @@ GLOBAL SETTINGS
 """
 
 SRC_FOLDER = 'ios-base-project'
-FOLDER_NAME = 'bassline-ios'
-PROJECT_NAME = 'Bassline'
-ORGANIZATION_NAME = 'Synaptic Stuff, LLC'
-ORGANIZATION_IDENTIFIER = 'com.synapticstuff'
+FOLDER_NAME = 'project-ios'
+PROJECT_NAME = 'Sample App'
+ORGANIZATION_NAME = 'My Company'
+ORGANIZATION_IDENTIFIER = 'com.mycompany'
 
 """
 END GLOBAL SETTINGS
