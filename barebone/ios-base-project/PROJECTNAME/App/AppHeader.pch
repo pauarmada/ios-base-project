@@ -1,0 +1,10 @@
+//
+//  remedy.pch
+//  remedy
+//
+//  Created by ORGANIZATIONNAME.
+//  Copyright © 2015 ORGANIZATIONNAME. All rights reserved.
+//
+
+#ifndef APP_HEADER_pch
+#define APP_HEADER_pch

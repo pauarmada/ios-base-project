@@ -50,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFD97D6A1BCCF0B300BD608A /* AppHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHeader.pch; sourceTree = "<group>"; };
 		BFE85EB41BC2DD510000C407 /* PROJECTNAME - Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PROJECTNAME - Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE85ECD1BC2DD510000C407 /* PROJECTNAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTNAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE85ED11BC2DD510000C407 /* PROJECTNAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PROJECTNAMETests.m; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 			children = (
 				BFE85EEB1BC2DE9F0000C407 /* AppDelegate.h */,
 				BFE85EEC1BC2DE9F0000C407 /* AppDelegate.m */,
+				BFD97D6A1BCCF0B300BD608A /* AppHeader.pch */,
 				BFE85EED1BC2DE9F0000C407 /* Info.plist */,
 				BFE85EEE1BC2DE9F0000C407 /* main.m */,
 			);
@@ -471,6 +473,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = PROJECTNAME/App/AppHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/PROJECTNAME/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ORGANIZATIONIDENTIFIER.PROJECTNAME-dev";
@@ -486,6 +489,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = PROJECTNAME/App/AppHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/PROJECTNAME/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ORGANIZATIONIDENTIFIER.PROJECTNAME;
