@@ -2,8 +2,8 @@
 //  InitialViewController.m
 //  PROJECTNAME
 //
-//  Created by ORGANIZATIONNAME on 10/6/15.
-//  Copyright © 2015 ORGANIZATIONNAME. All rights reserved.
+//  Created by ORGANIZATION_NAME on 10/6/15.
+//  Copyright © 2015 ORGANIZATION_NAME. All rights reserved.
 //
 
 #import "InitialViewController.h"

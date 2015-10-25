@@ -47,7 +47,7 @@ def rename(dir, pattern):
     for pathAndFilename in glob.iglob(os.path.join(dir, pattern)):
         if (os.path.isfile(pathAndFilename)):
             replace(pathAndFilename, "PROJECTNAME", PROJECT_NAME)
-            replace(pathAndFilename, "ORGANIATIONNAME", ORGANIZATION_NAME)
+            replace(pathAndFilename, "ORGANIATION_NAME", ORGANIZATION_NAME)
             replace(pathAndFilename, "ORGANIZATIONIDENTIFIER", ORGANIZATION_IDENTIFIER)
                 
             renameProjectFile(pathAndFilename)

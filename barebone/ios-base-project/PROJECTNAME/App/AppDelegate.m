@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  PROJECTNAME
 //
-//  Created by ORGANIZATIONNAME.
-//  Copyright © 2015 ORGANIZATIONNAME. All rights reserved.
+//  Created by ORGANIZATION_NAME.
+//  Copyright © 2015 ORGANIZATION_NAME. All rights reserved.
 //
 
 #import "AppDelegate.h"
